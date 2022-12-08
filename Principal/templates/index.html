@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <title>Medicina</title>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="navbar-fixed">
+  <nav class="navegacion">
+    <div class="container">
+        <a href="#" class="brand-logo">Medicina</a>
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+
+    <ul class="right hide-on-med-and-down">
+         
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/productos/">Productos</a></li>
+    <li><a href="Ayuda.html">Ayuda</a></li>
+    <li><a href="/cuenta/">Mi cuenta</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+<ul class="sidenav" id="menu-responsive">
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/productos/">Productos</a></li>
+    <li><a href="Ayuda.html">Ayuda</a></li>
+    <li><a href="/cuenta/">Mi cuenta</a></li>
+
+</ul>
+</nav>
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+    <i class="large material-icons">apps</i>
+</a>
+
+<ul>
+    <li>
+        <a href="" class="btn-floating blue"><i class="material-icons">local_grocery_store</i></a></li>
+        <a href="" class="btn-floating blue"><i class="material-icons">local_post_office</i></a></li>
+        <a href="" class="btn-floating blue"><i class="material-icons">location_on</i></a></li>
+</ul>
+</div>
+
+    
+  
+</header>
+<main>
+    <section class="contenedor sobre-nosotros">
+        <h2 class="titulo">Nuestro producto</h2>
+        <div class="contenedor-sobre-nosotros">
+            <img src="{%static 'images.jpg'%}" alt="" class="imagen-about-us">
+            <div class="contenido-textos">
+                <h3><span>1</span>Los mejores productos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                    consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                    velit doloribus laboriosam ut.</p>
+                <h3><span>2</span>Los mejores productos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                    consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                    velit doloribus laboriosam ut.</p>
+            </div>
+        </div>
+    </section>
+    <section class="portafolio">
+        <div class="contenedor">
+            <h2 class="titulo">Productos</h2>
+            <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="{%static 'descarga.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="{%static 'descarga1.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="{%static 'images.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="{%static 'images2.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="{%static 'images3.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="{%static 'images4.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="{%static 'images5.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="{%static 'images6.png'%}" alt="">
+                    <div class="hover-galeria">
+                        <img src="{%static 'images.jpg'%}" alt="">
+                        <p>Nuestro trabajo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clientes contenedor">
+        <h2 class="titulo">Que dicen nuestros clientes</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="{%static 'images.jpg'%}" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{%static 'images.jpg'%}" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-services">
+        <div class="contenedor">
+            <h2 class="titulo">Nuestros servicios</h2>
+            <div class="servicio-cont">
+                <div class="servicio-ind">
+                    <img src="{%static 'medicos3.png'%}" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                </div>
+                <div class="servicio-ind">
+                    <img src="{%static 'mediD.png'%}" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                </div>
+                <div class="servicio-ind">
+                    <img src="{%static 'medicamentos.png'%}" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h4>Email</h4>
+            <p>8296312</p>
+        </div>
+        <div class="content-foo">
+            <h4>Servicio al cliente</h4>
+            <p>8296312</p>
+        </div>
+        <div class="content-foo">
+            <h4>Localizacion</h4>
+            <p>8296312</p>
+        </div>
+    </div>
+    <h2 class="titulo-final">&copy; Hecho por Rodolfo Arcos y Matias Diaz </h2>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+    </script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems);
+  });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems,{
+        duration: 500,
+        indicators: true
+    });
+  });
+</script>
+</body>
+</html>

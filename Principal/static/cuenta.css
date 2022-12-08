@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegacion{
+    background-color: rgb(109, 129, 193);
+}
+
+
+.Secion{
+    padding: 50px;
+    position: relative;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(204, 247, 247);
+    margin-top: 50px;
+  border-radius: 5%;
+}
+
+.titulo{
+    border-radius: 5%;
+}
+
+input[type="submit"]{
+    background-color: rgb(83, 136, 227);
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: aliceblue;
+}
