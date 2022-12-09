@@ -52,202 +52,125 @@
         </a>
 
 
-
-
-
-        <ul>
-            <li>
-                <a href="" class="btn-floating blue"><i class="material-icons">local_grocery_store</i></a>
-            </li>
-            <a href="" class="btn-floating blue"><i class="material-icons">local_post_office</i></a></li>
-            <a href="" class="btn-floating blue"><i class="material-icons">location_on</i></a></li>
-        </ul>
-    </div>
-
-
-    <div class="container section">Todo lo que tenemos a la venta
-
-        <div class="row">
-            <div class="col s4">
-                <div class="card">
-
-                    <div class="card-image">
-                        <img src="{%static 'images6.png'%}" alt="">
-                    </div>
-
-
-                    <div class="card-content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum exercitationem nostrum
-                            inventore repudiandae rem dolor autem, praesentium nihil quisquam sed quia natus fuga ab, ex
-                            veniam labore ipsum asperiores quo.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">comprar</a>
-                    </div>
-
-
-
+        <header>
+            <div class="header-section container">
+                <img class="logo" src="../img/medicina.png" alt="">
+                <div>
+                    <img onmouseover="showCart(this)" class="cart" src="../img/carrito.png" alt="">
+                    <p class="count-product">0</p>
                 </div>
-
-            </div>
-
-            <div class="col s4">
-                <div class="card">
-
-                    <div class="card-image">
-                        <img src="{%static 'images4.png'%}" alt="">
+                <div class="cart-products" id="products-id">
+                    <p class="close-btn" onclick="closeBtn()">X</p>
+                    <h3>Mi carrito</h3>
+                    <div class="card-items">
+                
                     </div>
-
-
-                    <div class="card-content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum exercitationem nostrum
-                            inventore repudiandae rem dolor autem, praesentium nihil quisquam sed quia natus fuga ab, ex
-                            veniam labore ipsum asperiores quo.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">comprar</a>
-                    </div>
-
-
-
+                    <h2>Total: <strong class="price-total">0</strong> $</h2>
                 </div>
-
             </div>
-
-
-
-            <div class="col s4">
-                <div class="card">
-
-                    <div class="card-image">
-                        <img src="{%static 'images8.png'%}" alt="">
+        </header>
+        <section class="container">
+            <div class="products">
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>2000</span>$</p>
                     </div>
-
-
-                    <div class="card-content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum exercitationem nostrum
-                            inventore repudiandae rem dolor autem, praesentium nihil quisquam sed quia natus fuga ab, ex
-                            veniam labore ipsum asperiores quo.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">comprar</a>
-                    </div>
-
-
-
+                    <p class="title">medicina</p>
+                    <a href="" data-id="1" class="btn-add-cart">add to cart</a>
                 </div>
-
-            </div>
-
-
-
-            <div class="col s4">
-                <div class="card">
-
-                    <div class="card-image">
-                        <img src="{%static 'images9.png'%}" alt="">
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>3500</span>$</p>
                     </div>
-
-
-                    <div class="card-content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum exercitationem nostrum
-                            inventore repudiandae rem dolor autem, praesentium nihil quisquam sed quia natus fuga ab, ex
-                            veniam labore ipsum asperiores quo.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">comprar</a>
-                    </div>
-
-
-
+                    <p class="title"> medicina</p>
+                    <a href="" class="btn-add-cart" data-id="2">add to cart</a>
                 </div>
-
-            </div>
-
-
-
-
-            <div class="col s4">
-                <div class="card">
-
-                    <div class="card-image">
-                        <img src="{%static 'images10.png'%}" alt="">
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>1500</span>$</p>
                     </div>
-
-
-                    <div class="card-content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum exercitationem nostrum
-                            inventore repudiandae rem dolor autem, praesentium nihil quisquam sed quia natus fuga ab, ex
-                            veniam labore ipsum asperiores quo.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">comprar</a>
-                    </div>
-
-
-
+                    <p class="title"> medicina</p>
+                    <a href="" data-id="3" class="btn-add-cart">add to cart</a>
                 </div>
-
-            </div>
-
-
-
-
-            <div class="col s4">
-                <div class="card">
-
-                    <div class="card-image">
-                        <img src="{%static 'images1.png'%}" alt="">
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>2000</span>$</p>
                     </div>
-
-
-                    <div class="card-content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum exercitationem nostrum
-                            inventore repudiandae rem dolor autem, praesentium nihil quisquam sed quia natus fuga ab, ex
-                            veniam labore ipsum asperiores quo.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">comprar</a>
-                    </div>
-
-
-
+                    <p class="title"> medicina</p>
+                    <a href="" data-id="4" class="btn-add-cart">add to cart</a>
                 </div>
-
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>2100</span>$</p>
+                    </div>
+                    <p class="title"> medicina</p>
+                    <a href="" data-id="5" class="btn-add-cart">add to cart</a>
+                </div>
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>4500</span>$</p>
+                    </div>
+                    <p class="title"> medicina</p>
+                    <a href="" data-id="6" class="btn-add-cart">add to cart</a>
+                </div>
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>2300</span>$</p>
+                    </div>
+                    <p class="title"> medicina</p>
+                    <a href="" data-id="7" class="btn-add-cart">add to cart</a>
+                </div>
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>3000</span>$</p>
+                    </div>
+                    <p class="title">medicina</p>
+                    <a href="" data-id="8" class="btn-add-cart">add to cart</a>
+                </div>
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>1600</span>$</p>
+                    </div>
+                    <p class="title"> medicina</p>
+                    <a href="" data-id="9" class="btn-add-cart">add to cart</a>
+                </div>
+                <div class="carts">
+                    <div>
+                        <img src="../img/images.jpg" alt="">
+                        <p><span>1700</span>$</p>
+                    </div>
+                    <p class="title"> medicina</p>
+                    <a href="" data-id="10" class="btn-add-cart">add to cart</a>
+                </div>
+                <div class="carts">
+                    <div>
+                        <img src="./images/products/keyboard-1.jpg" alt="">
+                        <p><span>4500</span>$</p>
+                   
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+        </section>
+    
+        
+    
+        <script>
+            function showCart(x){
+                document.getElementById("products-id").style.display = "block";
+            }
+            function closeBtn(){
+                 document.getElementById("products-id").style.display = "none";
+            }
+    
+        </script>
+        <script src="../templates/funciones.js" ></script>
 
 
 
